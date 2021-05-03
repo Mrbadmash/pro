@@ -1,6 +1,6 @@
  #coding:utf-8
 #!/user/bin/python2
-#coding by Karma David
+#coding by Ijaxo Hacker
 try:    
     import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass,mechanize,requests
     from multiprocessing.pool import ThreadPool
@@ -37,19 +37,19 @@ def acak(b):
 
 logo = ''' 
 
-╔╗╔═╗
-║║║╔╝
-║╚╝╝╔══╦═╦╗╔╦══╗
-║╔╗║║╔╗║╔╣╚╝║╔╗║
-║║║╚╣╔╗║║║║║║╔╗║
-╚╝╚═╩╝╚╩╝╚╩╩╩╝╚╝
+╔══╗─╔╦═══╦═╗╔═╦═══╗
+╚╣╠╝─║║╔═╗╠╗╚╝╔╣╔═╗║
+─║║──║║║─║║╚╗╔╝║║─║║
+─║║╔╗║║╚═╝║╔╝╚╗║║─║║
+╔╣╠╣╚╝║╔═╗╠╝╔╗╚╣╚═╝║
+╚══╩══╩╝─╚╩═╝╚═╩═══╝
 
-╔═══╗────────╔╗
-╚╗╔╗║────────║║
-─║║║╠══╦╗╔╦╦═╝║
-─║║║║╔╗║╚╝╠╣╔╗║
-╔╝╚╝║╔╗╠╗╔╣║╚╝║
-╚═══╩╝╚╝╚╝╚╩══╝
+╔╗─╔╦═══╦═══╦╗╔═╦═══╦═══╗
+║║─║║╔═╗║╔═╗║║║╔╣╔══╣╔═╗║
+║╚═╝║║─║║║─╚╣╚╝╝║╚══╣╚═╝║
+║╔═╗║╚═╝║║─╔╣╔╗║║╔══╣╔╗╔╝
+║║─║║╔═╗║╚═╝║║║╚╣╚══╣║║╚╗
+╚╝─╚╩╝─╚╩═══╩╝╚═╩═══╩╝╚═╝
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 '''
 idh = []
@@ -68,13 +68,13 @@ def pilog():
         print 
         print ("Login Token").center(50)
         print
-        print ("Aurher    :  Karma David")
+        print ("Author    :  Ijaz Afridi")
         print('')
-        print ("YouTube   :  Technical Karma")
+        print ("YouTube   :  Afridi Tricks")
         print('')
-        print ("Facebook  :  Karma David")
+        print ("Facebook  :  Ajaz Ahmed")
         print 
-        token = raw_input("[+] Past Your Token Here : ")
+        token = raw_input("[+] Paste Your Token Here : ")
         sav = open(".logfuck.txt","w")
         time.sleep(1)
         bot_fl()
